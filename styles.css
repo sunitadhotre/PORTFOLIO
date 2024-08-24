@@ -1,0 +1,432 @@
+
+.slider {
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+ }
+ 
+ .slides {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+ }
+ 
+ .slide {
+   min-width: 100%;
+   flex: 1;
+ }
+ 
+ .slide img {
+   width: 70%;
+   height: 30%;
+   display: block;
+   margin: auto;
+ }
+ 
+ .arrow {
+   position: absolute;
+   top:15%;
+   width: 30px;
+   height: 30px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   border: none;
+   cursor: pointer;
+   transform: translateY(-50%);
+   z-index: 1;
+ }
+ 
+ .prev {
+   left: 10px;
+ }
+ 
+ .next {
+   right: 10px;
+ }
+ 
+ body {
+   margin: 0;
+   background-color: white;
+   color: black; 
+   font-size: 22px;
+ }
+ 
+ header {
+   background-color: rgb(0, 171, 204);
+   padding: 17px 5px;
+   position: fixed;
+   width: 100vw;
+ }
+ 
+ nav ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   align-items: center;
+   align-content: center;
+ }
+ 
+ nav ul a {
+   color: whitesmoke;
+   margin: 10px 15px;
+   text-decoration: none;
+   font-size: 21px;
+ }
+ 
+ nav ul a:hover {
+   color: rgb(251, 196, 68);
+ }
+ 
+ .Container {
+   margin: 0;
+   display: flex;
+   align-items: center;
+   padding: 20px 0;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ 
+ .main img {
+   margin-top: 55px;
+   border-radius: 50%;
+   max-width: 400px;
+   width: 100%;
+   border: 4px solid rgb(251, 196, 68);
+ }
+ 
+ .main-2 {
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+   flex-wrap: wrap;
+   align-content: space-around;
+   justify-content: center;
+   width: 100%;
+ }
+ 
+ .home {
+   margin-left: 190px;
+   font-size: 20px;
+   font-family: times new roman;
+ }
+ 
+ .yellow {
+   color: rgb(0,0,0);
+ }
+ 
+ .one, .two, .three, .four, .five, .six, .seven {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .bharati img, .dypatil img, .amravati img, .holy img, .ibm img {
+   background-size: 100%;
+   border-radius: 50%;
+ }
+ 
+ .bharati img { width: 60px; }
+ .dypatil img { width: 60px; }
+ .amravati img { width: 80px; }
+ .holy img { width: 79px; }
+ .ibm img { width: 96px; }
+ 
+ .text1 ul, .text2 ul, .text3 ul, .text4 ul, .text5 ul, .text6 ul, .text7 ul, .last-section {
+   list-style-type: none;
+ }
+ 
+ #lnc {
+   margin-top: 65px;
+ }
+ 
+ .skills {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   align-content: center;
+   width: 80%;
+   text-align: center;
+   background-color: blueviolet;
+ }
+ 
+ .images img {
+   display: inline-block;
+   width: 110px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   background-size: 100%;
+   border-radius: 50%;
+ }
+ 
+ #learner {
+   width: 150px;
+   border-radius: 50%;
+   background-size: 100%;
+ }
+ 
+ .main-container {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #36454F;
+ }
+ 
+ .main-container > div {
+   flex: 1;
+   margin: 20px;
+ }
+ 
+ h2 {
+   margin-left: 20px;
+   color: rgb(251, 196, 68);
+ }
+ 
+ .secondary-container {
+   background-color: #36454F;
+ }
+ 
+ .skills {
+   background-color: blueviolet;
+ }
+ 
+ .Publications {
+   margin-top: 152px;
+ }
+ 
+ .honors-awards {
+   margin-top: 100px;
+ }
+ 
+ .honors-awards ul {
+   list-style-type: disc;
+ }
+ 
+ .cont {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px;
+ }
+ 
+ #ts {
+   margin-top: 10px;
+ }
+ 
+ #ts ul {
+   list-style-type: disc;
+ }
+ 
+ .cont div {
+   margin: 10px;
+ }
+ 
+ #linkIn img {
+   position: relative;
+   top: 8px;
+   width: 100px;
+ }
+ 
+ #fb img {
+   position: relative;
+   top: 5px;
+ }
+ 
+ #myDiv {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px;
+ }
+ 
+ #patentImg {
+   height: 80px;
+ }
+ 
+ #show {
+   width: 15%;
+   height: 30px;
+   text-align: center;
+   align-items: center;
+   background-color: beige;
+   border: 2px solid black;
+   border-radius: 20px;
+ }
+ 
+ #show:hover {
+   background-color: rgb(194, 160, 227);
+   cursor: pointer;
+ }
+ 
+ #show1 {
+   width: 15%;
+   height: 30px;
+   text-align: center;
+   align-items: center;
+   background-color: beige;
+   border: 2px solid black;
+   border-radius: 20px;
+ }
+ 
+ #show1:hover {
+   background-color: rgb(194, 160, 227);
+   cursor: pointer;
+ }
+ 
+ #show2 {
+   width: 15%;
+   height: 30px;
+   text-align: center;
+   align-items: center;
+   background-color: r-s;
+   border: 2px solid black;
+   border-radius: 20px;
+ }
+ 
+ #show2:hover {
+   background-color: rgb(194, 160, 227);
+   cursor: pointer;
+ }
+ 
+ #show3 {
+   width: 15%;
+   height: 30px;
+   text-align: center;
+   align-items: center;
+   background-color: beige;
+   border: 2px solid black;
+   border-radius: 20px;
+ }
+ 
+ #show3:hover {
+   background-color: rgb(194, 160, 227);
+   cursor: pointer;
+ }
+ 
+ #myDiv1 {
+   margin: 20px 20px;   
+   width: 100%;
+   height: 10%;
+   display: flex;
+   align-content: space-around;
+   justify-content: space-evenly;
+   align-items: center;
+   justify-items: center;
+ }
+ 
+ #clickme img {
+   width: 300px;
+   height: 300px;
+ }
+ 
+ #clickme1 img {
+   width: 300px;
+   height: 300px;
+ }
+ 
+ #clickme2 img {
+   width: 300px;
+   height: 300px;
+ }
+ 
+ #clickme3 img {
+   width: 300px;
+   height: 300px;
+ }
+ 
+ @media (max-width: 765px) {
+   header {
+     position: static;
+   }
+ 
+   .main img {
+     margin: 20px auto;
+     display: block;
+   }
+ 
+   .home {
+     margin: 20px auto;
+     text-align: center;
+   }
+ 
+   nav ul {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   nav ul a {
+     margin: 5px 0;
+   }
+ 
+   .Container, .main-2 {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   .skills {
+     width: 100%;
+   }
+ 
+   .main-container {
+     flex-direction: column;
+     margin: 0;
+   }
+ 
+   .main-container > div {
+     margin: 0 20px;
+   }
+ 
+   .secondary-container, .cont {
+     flex-direction: column;
+     margin: 0 20px;
+   }
+ 
+   .text1, .text2, .text3, .text4, .text5, .text6, .text7 {
+     flex: 1;
+     margin: 10px 0;
+   }
+ 
+   #myDiv {
+     flex-direction: column;
+     margin: 0 20px;
+   }
+ 
+   #myDiv1 {
+     margin: 20px 20px;   
+     width: 100%;
+     height: 10%;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+   }
+ 
+   #show, #show1, #show2, #show3 {
+     width: 25%;
+     height: 35px;
+   }
+ 
+   .slide img {
+     width: 100%;
+     height: 40%;
+   }
+ }
+ 
+ .sessions2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .ResearchPapers {
+   margin-top: -89%;
+   margin-left: 20px;
+   padding-left: 20px;
+   width: 100%;
+   border: 2px dotted rgb(0,0,0);
+ }
+ 
+ #clickme, #clickme1, #clickme2, #clickme3 {
+   display: none;
+ }
+
+ 
